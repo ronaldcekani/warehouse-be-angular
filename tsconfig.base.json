@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@warehouse-management/auth": ["libs/auth/src/index.ts"],
+      "@warehouse-management/layout": ["libs/layout/src/index.ts"],
+      "@warehouse-management/routes": ["libs/routes/src/index.ts"],
+      "@warehouse-management/user": ["libs/user/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

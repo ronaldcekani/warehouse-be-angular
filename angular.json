@@ -2,6 +2,10 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "auth": "libs/auth",
+    "layout": "libs/layout",
+    "routes": "libs/routes",
+    "user": "libs/user",
     "warehouse": "apps/warehouse",
     "warehouse-e2e": "apps/warehouse-e2e"
   }
